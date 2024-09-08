@@ -1,0 +1,10 @@
+@media(max-width:500px){
+    #secao{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .pesquisa{
+        width:110%;
+    }
+}
