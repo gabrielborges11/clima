@@ -3,7 +3,7 @@ function img(){
     var data = new Date()
     var hora = data.getHours()
 
-    if(hora > 0 && hora < 12){
+    if(hora >= 0 && hora < 12){
         
         temp.style.color = "black"
         aviso.style.color = "black"
