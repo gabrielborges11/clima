@@ -87,18 +87,19 @@ fetch(url)
     .catch(error => {
         console.error('Erro ao buscar dados de clima:', error);
      //   alert('Erro ao buscar dados de clima');
-     aviso.innerHTML ="Erro ao buscar dados de clima"
+  boom()
     });
 
 
         } else {
            // alert('Não foi possível encontrar a localização para a cidade especificada.');
             aviso.innerHTML ="Não foi possível encontrar a localização para a cidade especificada"
+           boom()
         }
     })
     .catch(error => {
         console.error('Erro ao buscar a localização:', error);
-        alert('Erro ao buscar a localização');
+        boom()
     });
 
 
@@ -109,3 +110,18 @@ document.addEventListener('keypress', function(event) {
        acao()
     }
   });
+
+  
+function boom(){
+    new Notify({
+        status: 'error',
+        title: 'Erro',
+        text: 'vê se essa cidade existe! hahaha',
+        effect: 'fade',
+        speed: 300,
+        autoclose: true,
+        autotimeout: 4000,
+        position: 'center',
+        gap: 50
+    });
+}
