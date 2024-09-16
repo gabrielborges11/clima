@@ -56,7 +56,7 @@ fetch(url)
                   //  alert(`Dia ${index + 1}: Temperatura média = ${avg.toFixed(2)}°C`);
                 // info.innerHTML =`Dia ${index + 1}: Temperatura média = ${avg.toFixed(2)}°C`
 
-                   
+                     aviso.innerHTML =""
 
                         if(index == 0){
                             var dia1 = avg.toFixed(2)
