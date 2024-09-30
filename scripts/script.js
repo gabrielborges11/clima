@@ -60,25 +60,25 @@ fetch(url)
 
                         if(index == 0){
                             var dia1 = avg.toFixed(2)
-                            info1.innerHTML = 'hoje: <br>' + dia1;
+                            info1.innerHTML = 'hoje: <br>' + dia1+"°"
                         }else if(index == 1){
                             var dia2 = avg.toFixed(2)
-                            info2.innerHTML = 'amanhã: <br>'+dia2
+                            info2.innerHTML = 'amanhã: <br>'+dia2+"°"
                         }else if(index == 2){
                             var dia3 = avg.toFixed(2)
-                            info3.innerHTML = 'dia 3:<br> '+dia3
+                            info3.innerHTML = 'dia 3:<br> '+dia3+"°"
                         }else if(index == 3){
                             var dia4 = avg.toFixed(2)
-                            info4.innerHTML ='dia 4: <br>'+ dia4
+                            info4.innerHTML ='dia 4: <br>'+ dia4+"°"
                         }else if(index == 4){
                             var dia5 = avg.toFixed(2)
-                            info5.innerHTML = 'dia 5: <br>'+dia5
+                            info5.innerHTML = 'dia 5: <br>'+dia5+"°"
                         }else if(index == 5){
                             var dia6 = avg.toFixed(2)
-                            info6.innerHTML = 'dia 6:<br> '+dia6
+                            info6.innerHTML = 'dia 6:<br> '+dia6+"°"
                         }else if(index == 6){
                             var dia7 = avg.toFixed(2)
-                            info7.innerHTML = 'dia 7:<br> '+ dia7
+                            info7.innerHTML = 'dia 7:<br> '+ dia7+"°"
                         }
                 });
 
