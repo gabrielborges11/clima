@@ -8,3 +8,9 @@
         width:110%;
     }
 }
+
+@media(min-width:1600px){
+    main{
+        transform:scale(1.5)
+    }
+}
